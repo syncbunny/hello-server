@@ -4,7 +4,7 @@ services:
   api:
     environment:
       TZ: "UTC"
-      DB_HOST: hello-postgres-1
+      DB_HOST: hello-server-postgres-1
       DB_database: hello
     build:
       context: .
